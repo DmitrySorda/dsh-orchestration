@@ -14,7 +14,8 @@
 | [docs/03-headless-orchestration.md](docs/03-headless-orchestration.md) | Headless-режим и паттерн «одна задача — один ответ — exit code» |
 | [docs/04-audit-methodology.md](docs/04-audit-methodology.md) | Методология аудита ответов исполнителя: guard'ы, дифференциальное тестирование, provenance |
 | [docs/05-empirical-results.md](docs/05-empirical-results.md) | Два реальных прогона с аудитом: LRU-кэш и ловушка на галлюцинацию API |
-| [skill/dsh-orchestration.SKILL.md](skill/dsh-orchestration.SKILL.md) | Готовый скилл для AI-агента: постановка задач dsh + аудит (адаптированная публикация) |
+| [docs/06-skill-audit-loop.md](docs/06-skill-audit-loop.md) | Петля аудита скилла: аудит → патч → повторный аудит → аудит аудита (все вердикты) |
+| [skill/dsh-orchestration.SKILL.md](skill/dsh-orchestration.SKILL.md) | Готовый скилл для AI-агента: постановка задач dsh + аудит; **v2** — после патча по результатам аудита |
 
 ## Ключевые результаты
 
